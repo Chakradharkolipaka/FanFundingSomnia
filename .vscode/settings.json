@@ -1,0 +1,8 @@
+{
+    // Use the workspace TypeScript version (helps VS Code resolve modules/types correctly)
+    "typescript.tsdk": "node_modules/typescript/lib",
+
+    // The following Windows-only Solidity compiler path breaks on Linux.
+    // If you want a local solc, set this to an actual path on your machine.
+    // "solidity.compileUsingLocalVersion": ""
+}
